@@ -1,0 +1,10 @@
+^C:\USERS\LUMIERE\DESKTOP\ADMIN_PANEL_LNB\BUILD\WINDOWS\X64\CMAKEFILES\DCBFBDCCD0F6521B7D7081395FB31DEE\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

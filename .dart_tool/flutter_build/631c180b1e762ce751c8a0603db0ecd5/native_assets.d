@@ -1,0 +1,1 @@
+ C:\\Users\\lumiere\\Desktop\\admin_panel_lnb\\.dart_tool\\flutter_build\\631c180b1e762ce751c8a0603db0ecd5\\native_assets.yaml: 
