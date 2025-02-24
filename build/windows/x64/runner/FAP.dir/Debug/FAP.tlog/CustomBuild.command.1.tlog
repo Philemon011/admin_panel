@@ -1,6 +1,6 @@
-^C:\USERS\LUMIERE\DESKTOP\ADMIN_PANEL_LNB\WINDOWS\RUNNER\CMAKELISTS.TXT
+^D:\ALERTE ETHIQUE\ALERTE_ETHIQUE_ADMIN_PANEL\WINDOWS\RUNNER\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/lumiere/Desktop/admin_panel_lnb/windows -BC:/Users/lumiere/Desktop/admin_panel_lnb/build/windows/x64 --check-stamp-file C:/Users/lumiere/Desktop/admin_panel_lnb/build/windows/x64/runner/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Alerte Ethique/alerte_ethique_admin_panel/windows" "-BD:/Alerte Ethique/alerte_ethique_admin_panel/build/windows/x64" --check-stamp-file "D:/Alerte Ethique/alerte_ethique_admin_panel/build/windows/x64/runner/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/lumiere/Desktop/admin_panel_lnb/windows/flutter
+# Install script for directory: D:/Alerte Ethique/alerte_ethique_admin_panel/windows/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

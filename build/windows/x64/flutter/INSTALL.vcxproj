@@ -18,7 +18,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6BB31FD9-E626-3436-93F3-5AD23B45A50D}</ProjectGuid>
+    <ProjectGuid>{3A8554B8-DE78-3CC6-96DC-0CB358C66804}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -100,7 +100,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\lumiere\Desktop\admin_panel_lnb\build\windows\x64\CMakeFiles\63eefdacf70d0a5a2abfa66e0b8d8c57\INSTALL_force.rule">
+    <CustomBuild Include="D:\Alerte Ethique\alerte_ethique_admin_panel\build\windows\x64\CMakeFiles\8a2eb1113ef8d0bd1c4074a4921c3c8d\INSTALL_force.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -113,7 +113,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\lumiere\Desktop\admin_panel_lnb\build\windows\x64\flutter\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Alerte Ethique\alerte_ethique_admin_panel\build\windows\x64\flutter\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">true</BuildInParallel>
@@ -128,7 +128,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">C:\Users\lumiere\Desktop\admin_panel_lnb\build\windows\x64\flutter\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">D:\Alerte Ethique\alerte_ethique_admin_panel\build\windows\x64\flutter\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
@@ -143,20 +143,20 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\lumiere\Desktop\admin_panel_lnb\build\windows\x64\flutter\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Alerte Ethique\alerte_ethique_admin_panel\build\windows\x64\flutter\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\lumiere\Desktop\admin_panel_lnb\build\windows\x64\ZERO_CHECK.vcxproj">
-      <Project>{4C822BD7-98FF-37CE-B0EA-F31858190CA4}</Project>
+    <ProjectReference Include="D:\Alerte Ethique\alerte_ethique_admin_panel\build\windows\x64\ZERO_CHECK.vcxproj">
+      <Project>{1014F917-0D77-3EA0-B325-07CE7C1B1A66}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\lumiere\Desktop\admin_panel_lnb\build\windows\x64\runner\ALL_BUILD.vcxproj">
-      <Project>{9F975440-B314-359C-85F9-FB995CE98914}</Project>
+    <ProjectReference Include="D:\Alerte Ethique\alerte_ethique_admin_panel\build\windows\x64\runner\ALL_BUILD.vcxproj">
+      <Project>{3A25A697-4111-3BD6-B02F-5E9B91DEC57D}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
